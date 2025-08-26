@@ -2,6 +2,7 @@
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { BsFillSendFill } from "react-icons/bs";
 import { useState } from "react";
 
 export default function Recommendations() {
@@ -111,10 +112,13 @@ export default function Recommendations() {
         <div className="fixed bg-opacity-50 flex items-center justify-center">
           <div className="bg-white p-6 rounded-lg w-[500px] max-w-[90%]">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-xl font-bold">Get Recommendation via email</h3>
+              <h3 className="text-xl font-bold">
+                Get Recommendation via email
+              </h3>
               <button
+                type="button"
                 onClick={handleEmailClose}
-                className="text-gray-500 hover:text-gray-700"
+                className="text-gray-500 hover:text-gray-700 cursor-pointer"
               >
                 ✕
               </button>
@@ -156,13 +160,14 @@ export default function Recommendations() {
               <button
                 type="submit"
                 disabled={!emailData.recipientEmail || !emailData.message}
-                className={`w-full p-3 rounded text-white ${
+                className={`w-full p-3 rounded text-white flex gap-4 justify-center items-center ${
                   !emailData.recipientEmail || !emailData.message
-                    ? "bg-gray-400"
-                    : "bg-amber-400 hover:bg-amber-500"
+                    ? "bg-blue-100"
+                    : "bg-blue-400 hover:bg-amber-500"
                 }`}
               >
                 Send Email
+                <BsFillSendFill />
               </button>
             </form>
           </div>
