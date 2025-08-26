@@ -30,7 +30,7 @@ export default function Recommendations() {
     const message = encodeURIComponent(
       "I'd like to request a professional recommendation."
     );
-    window.open(`https://twitter.com/intent/tweet?text=${message}`, "_blank");
+    window.open(`https://x.com/intent/tweet?text=${message}`, "_blank");
   };
 
   const handleEmailSubmit = (e: React.FormEvent) => {
