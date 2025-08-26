@@ -91,7 +91,7 @@ export default function SideBar() {
           <Settings />
           <p className="ml-2">Settings</p>
         </span>
-        <span className="flex items-center mt-4">
+        <span className="flex items-center mt-4 text-red-500">
           <LogOut />
           <p className="ml-2">Log Out</p>
         </span>
