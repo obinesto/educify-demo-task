@@ -4,7 +4,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsFillSendFill } from "react-icons/bs";
 import { useState } from "react";
-import { useUser } from "./userContext";
+import { useUser } from "./UserContext";
 import { toast } from "sonner";
 
 interface EmailData {

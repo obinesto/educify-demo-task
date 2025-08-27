@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { useUser } from "./userContext";
+import { useUser } from "./UserContext";
 import EducifyLogo from "@/public/Educify-Logo.png";
 import Image from "next/image";
 // import { useRouter } from "next/navigation";
