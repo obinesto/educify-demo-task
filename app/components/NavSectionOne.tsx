@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { useUser } from "./userContext";
 import EducifyLogo from "@/public/Educify-Logo.png";
 import Image from "next/image";
 // import { useRouter } from "next/navigation";
@@ -18,7 +19,7 @@ interface User {
 }
 
 export default function NavSectionOne() {
-  const [user, setUser] = useState<User | null>(null);
+  const { user, setUser } = useUser()
   const [notifications, setNotifications] = useState(23);
   const [showUserDropdown, setShowUserDropdown] = useState(false);
   const [query, setSearchQuery] = useState("");
