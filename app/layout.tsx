@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Educify Demo Task",
   description:
-    "A demo page built off Educify's recommendation page, with server integration included",
+    "A demo page built off Educify's recommendation figma template page, with server integration included",
   authors: [
     {
       url: "https://cyprianobi.vercel.app/",

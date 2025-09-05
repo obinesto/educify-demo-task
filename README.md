@@ -1,4 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Educify Demo Task
+
+This is a demo page built with Next.js, based on Educify's recommendation Figma template. It showcases a responsive frontend with server integration included.
+
+***
+
+## Screenshots
+
+Here are the Figma templates that the design was based on:
+
+<p align="center">
+  <img alt="Figma Template 1" src="./public/figma template 1.jpg" width="45%">
+  &nbsp; &nbsp;
+  <img alt="Figma Template 2" src="./public/figma template 2.jpg" width="45%">
+</p>
+
+## Features
+
+- **Built with Next.js:** Leverages the latest features of the React framework for production.
+- **TypeScript:** For a robust and type-safe codebase.
+- **Server Integration:** Includes backend logic for a full-stack experience.
+- **Modern Fonts:** Uses `next/font` to automatically optimize and load Geist, a new font family from Vercel.
+- **UI Components:** Utilizes `shadcn/ui` for components and `sonner` for toast notifications.
+- **State Management:** Implements React Context via a `UserProvider` for managing global state.
 
 ## Getting Started
 
